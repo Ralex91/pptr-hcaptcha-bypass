@@ -17,7 +17,7 @@
 <img width="40" align="left" src="https://img.icons8.com/color-glass/512/experiment-trial.png">
 <h3> <a href="https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd">CocoSSD</a> </h3>
 
-<h4>⚠ CocoSSD AI model does not currently work with new versions of Hcaptcha, make your own one finds another ⚠</h4>
+<h4>⚠ CocoSSD AI model does not currently work with new versions of Hcaptcha, make your own one finds another</h4>
 <br>
 
 <h2>🛠 Installation</h2>
@@ -90,3 +90,5 @@ puppeteer.launch({
         await hcaptcha.resolve(page);
 });
 ```
+
+<h3>🎈 Have fun !</h3>
