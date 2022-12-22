@@ -1,10 +1,7 @@
 <p>
     <img width="80" align="left" src="https://cdn.worldvectorlogo.com/logos/hcaptcha-2-2.svg">
+    <img align="right" src="https://api.visitorbadge.io/api/visitors?path=https://github.com/Ralex91/pptr-hcaptcha-bypass/edit/main/README.md&countColor=%2337d67a">
     <h1>Hcaptcha Bypass Puppeteer 🤖</h1>
-</p>
-
-<p align="right">
-    <img src="https://api.visitorbadge.io/api/visitors?path=https://github.com/Ralex91/pptr-hcaptcha-bypass/edit/main/README.md&countColor=%2337d67a">
 </p>
 
 <h3>⚠ WARNING: this script does not currently work with new versions of Hcaptcha. The script is open source so you can use it to improve it, for example by putting another AI model :^)</h3>
