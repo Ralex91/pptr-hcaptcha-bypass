@@ -96,15 +96,18 @@ const resolve = async (page) => {
         const promptWord = promptParsed.slice(-1).toString();
 
         let promptWordClean = unidecode(promptWord);
-        
-        if (promptWordClean == 'dzeaplane');
-    	    promptWordClean = 'seaplane';
-    		
-        if (promptWordClean == 'trusk');
-    	    promptWordClean = 'truck';
-
-        if (promptWordClean == 'sar');
-            promptWordClean = 'car';
+          
+        switch (promptWordClean) {
+            case 'dzeaplane':
+                promptWordClean = 'seaplane';
+                break;
+            case 'trusk':
+                promptWordClean = 'truck';
+                break;
+            case 'sar':
+                promptWordClean =  'car';
+                break;
+        }
 
         //console.log(promptWordClean)
                 
