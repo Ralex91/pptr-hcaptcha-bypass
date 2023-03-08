@@ -121,8 +121,8 @@ const resolve = async (page) => {
         }
                     
         for await (let i of ForAsync()) {
-    	   await images[imgValid[i]].hover();
-    	   await images[imgValid[i]].click();
+    	   await imgElements[imgValid[i]].hover();
+    	   await imgElements[imgValid[i]].click();
         }
         
         await page.waitForTimeout(1000);
